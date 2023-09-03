@@ -1,12 +1,12 @@
 # TicTacToe
 
 ### Table of contents ###
-    1. [Application images](#application_images)<br/>
-    2. [Description](#description)<br/>
-    3. [How to use](#using)<br/>
-    4. [Technologies used](#technologies_used)<br/>
-    5. [Achievements,challenges,etcetera](#achievements,challenges,etcetera)<br/>
-    6. [Credits](#credits)<br/>
+1. [Application images](#application_images)<br/>
+2. [Description](#description)<br/>
+3. [How to use](#using)<br/>
+4. [Technologies used](#technologies_used)<br/>
+5. [Achievements,challenges,etcetera](#achievements,challenges,etcetera)<br/>
+6. [Credits](#credits)<br/>
 
 ### <a name="application_images" title="A collection of images taken when this application is being used">Application images</a>
 TODO
