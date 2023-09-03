@@ -1,0 +1,14 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "A web-based tictactoe game which utilizes websockets and events to provide users with real-time updates, allowing for seamless multiplayer interactions and an engaging gaming experience\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "authors": [
+    "Jacob Graham",
+    "Owen Laurie"
+  ],
+  "license": "ISC"
+}
