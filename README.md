@@ -7,6 +7,7 @@
 4. [Technologies used](#technologies_used)<br/>
 5. [Achievements,challenges,etcetera](#achievements,challenges,etcetera)<br/>
 6. [Credits](#credits)<br/>
+7. [Roadmap](#devroadmap)<br/>
 
 ### <a name="application_images" title="A collection of images taken when this application is being used">Application images</a>
 TODO
@@ -27,4 +28,14 @@ TODO
 <ol>
     <li>Jacob Graham</li>
     <li>Owen Laurie</li>
+</ol>
+
+### <a name="devroadmap" title="A road map for the development of features">Roadmap</a>
+<ol>
+    <li>September 10; ~~Desktop application window launched~~</li>
+    <li>September 16; A builder class that will construct private chat rooms</li>
+    <li>September 20; A server class which will instantiate websocket connections between 2 users in a chat room</li>
+    <li>September 23; A Tic Tac Toe game which can be played by one player</li>
+    <li>September 30; A Tic Tac Toe game which can be played by 2 players at the same time</li>
+    <li>October 01; On the right side of the Tic Tac Toe game screen, a collapse game chat should have a fixed position.</li>
 </ol>
