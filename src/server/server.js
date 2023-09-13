@@ -1,19 +1,42 @@
 const WebSocket = require('ws');
+const express = require('express');
+const http = require('http');
+const path = require('path');
 
-const web_socket_server = new WebSocket.Server({ port: 8080 });
-
-web_socket_server.on('connection', (web_socket) => {
-    web_socket.on('message', (message) => {
-    console.log(`Received message => ${message}`);
-    
-    web_socket_server.clients.forEach((client) => {
-      if (client.readyState === WebSocket.OPEN) {
-        client.send(message);
-      }
-    });
-  });
+const app = express();
+const server = http.createServer(app);
+app.use(express.static(path.join(__dirname, '../public')));
+app.get('/', (req, res) => {
+   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+const web_socket_server = new WebSocket.Server({ server});
+
+web_socket_server.on('connection', (web_socket) => {
+    console.log('Client connected');
+
+    web_socket.on('message', (message) => {
+        console.log(`Received: ${message}`);
+        // Send the received message back to the client
+        web_socket.send(`Server received: ${message}`);
+    });
+
+    web_socket.on('close', () => {
+        console.log('Client disconnected');
+    });
+//    console.log('Connected');
+//    web_socket.on('message', (message) => {
+//    console.log(`Received message => ${message}`);
+//
+//    web_socket_server.clients.forEach((client) => {
+//      if (client.readyState === WebSocket.OPEN) {
+//        client.send(message);
+//      }
+//    });
+//  });
+});
+
+module.exports = {server};
 /**
  * <!DOCTYPE html>
 <html lang="en">

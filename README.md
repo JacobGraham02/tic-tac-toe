@@ -8,6 +8,7 @@
 5. [Achievements,challenges,etcetera](#achievements,challenges,etcetera)<br/>
 6. [Credits](#credits)<br/>
 7. [Roadmap](#devroadmap)<br/>
+8. [Installation](#installation)<br/>
 
 ### <a name="application_images" title="A collection of images taken when this application is being used">Application images</a>
 TODO
@@ -39,3 +40,7 @@ TODO
     <li>September 30; A Tic Tac Toe game which can be played by 2 players at the same time</li>
     <li>October 01; On the right side of the Tic Tac Toe game screen, a collapse game chat should have a fixed position.</li>
 </ol>
+
+### <a name="installation" title="how to install and contribute to the project">Installation"</a>
+
+<p>First clone repository, run <code>npm install</code>, then run <code>npm start</code></p>
