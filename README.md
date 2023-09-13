@@ -32,7 +32,7 @@ TODO
 
 ### <a name="devroadmap" title="A road map for the development of features">Roadmap</a>
 <ol>
-    <li>September 10; ~~Desktop application window launched~~</li>
+    <li>September 10; <s>Desktop application window launched</s></li>
     <li>September 16; A builder class that will construct private chat rooms</li>
     <li>September 20; A server class which will instantiate websocket connections between 2 users in a chat room</li>
     <li>September 23; A Tic Tac Toe game which can be played by one player</li>
